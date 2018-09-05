@@ -1,6 +1,4 @@
-/*var x;
-var endOfDay = x - 24hours(however you are going to put it)
-*/
+/*Clock code countdown*/
 function countdown(){
 	var now = new Date();
 	var eventDate = new Date(2052 , 12  , 24);
@@ -31,3 +29,14 @@ function countdown(){
 }
 
 countdown();
+
+function showsPic(){
+	document.getElementById("minutes").textContent = m;
+	document.getElementById("seconds").textContent = s;
+
+	if (m = "55" && s = "00") {
+		alert("aywa hna");
+	}
+}
+
+showsPic();
