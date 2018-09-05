@@ -1,7 +1,7 @@
 /*Clock code countdown*/
 function countdown(){
 	var now = new Date();
-	var eventDate = new Date(2052 , 12  , 24);
+	var eventDate = new Date(2053 , 12  , 24);
 
 	var currentTime = now.getTime();
 	var eventTime = eventDate.getTime();
