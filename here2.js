@@ -30,13 +30,3 @@ function countdown(){
 
 countdown();
 
-function showsPic(){
-	document.getElementById("minutes").textContent = m;
-	document.getElementById("seconds").textContent = s;
-
-	if (m = "55" && s = "00") {
-		alert("aywa hna");
-	}
-}
-
-showsPic();
