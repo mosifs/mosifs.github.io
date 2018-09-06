@@ -47,10 +47,9 @@ body{
 
 /*aragorn video*/
 
-#videohere{
+iframe{
 	margin: auto;
-	transform: translateY(300px);
-}
+	transform:  translateX(320px) translateY(300px);
 
 
 
